@@ -11,8 +11,8 @@ Data was gathered from a Web of Science API and written to a TSV file.
 2. Get an API Key from Clarivate for the Web of Science extended API.
 3. Put your API key in `secret.json`. (Leave the surrounding quotation marks but
 replace the contents of the quotation marks with your API key.)
-4. Run the program and redirect STDOUT to a .tsv file. (I used `tee` so I could
-   monitor things a bit while it was running.)
+4. Run the program and redirect STDOUT to a .tsv file:<br>
+   `node lib/processingRecords.mjs | tee results.tsv`
      * With Node.js 18.x, you will get two warnings at the outset about use of
        the experimental JSON modules import and Fetch API. You can safely
        ignore those warnings. Those APIs will (probably) not be experimental in
