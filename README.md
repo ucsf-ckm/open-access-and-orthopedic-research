@@ -8,7 +8,7 @@ Data was gathered from a Web of Science API and written to a TSV file.
 ## How to use this script
 
 1. Install Node.js 18.x or newer.
-2. Get an API Key from Clarivate for the Web of Science extended API.
+2. Get an API Key from Clarivate for the [Web of Science™ API Expanded API](https://developer.clarivate.com/apis/wos).
 3. Put your API key in `secret.json`. (Leave the surrounding quotation marks but
 replace the contents of the quotation marks with your API key.)
 4. Run the program and redirect STDOUT to a .tsv file:<br>
